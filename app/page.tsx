@@ -5,16 +5,16 @@ export default function Home() {
     <>
       <Head>
         <meta charSet="UTF-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
+        <meta 
+          name="viewport" 
+          content="width=device-width, initial-scale=1.0" 
         />
         <meta
           name="description"
           content="Prostir - Shaping the Future of Workflows with AI and Automation"
         />
         <title>Prostir | Shaping the Future</title>
-        <style>{`
+        <style jsx global>{`
           body {
             margin: 0;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -133,7 +133,13 @@ export default function Home() {
           <p>
             <a 
               href="https://vitalivoinski.com" 
-              style={{ color: "#000", borderBottom: "2px solid #007BFF", paddingBottom: "2px", textDecoration: "none", cursor: "pointer" }}
+              style={{
+                color: "#000",
+                borderBottom: "2px solid #007BFF",
+                paddingBottom: "2px",
+                textDecoration: "none",
+                cursor: "pointer"
+              }}
             >
               Learn More About Vitali Voinski
             </a>
@@ -153,7 +159,12 @@ export default function Home() {
             Subscribe to receive updates on our progress and insights into the future of AI-driven workflows.
           </p>
           <form action="/submit" method="POST">
-            <input type="email" name="email" placeholder="Enter your email" required />
+            <input 
+              type="email" 
+              name="email" 
+              placeholder="Enter your email" 
+              required 
+            />
             <button type="submit">Subscribe</button>
           </form>
         </section>
