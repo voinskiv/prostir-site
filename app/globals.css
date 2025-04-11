@@ -125,7 +125,7 @@ button[type="submit"] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin: 5px;
+  margin-left: 5px;
 }
 
 button[type="submit"]:hover {
@@ -164,7 +164,8 @@ font-weight: bold;
   }
   
   button[type="submit"] {
-    margin: 0;
+    margin-top: 5px;
+    margin-left: 0;
     /* Optional: Make them block-level elements for better stacking */
     display: block;
   }
