@@ -161,7 +161,8 @@ font-weight: bold;
     width: 100%;
     /* Optional: Make them block-level elements for better stacking */
     display: block;
-  },
+  }
+  
   button[type="submit"] {
     margin: 0;
     /* Optional: Make them block-level elements for better stacking */
