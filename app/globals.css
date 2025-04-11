@@ -155,3 +155,12 @@ margin-inline-start: 0px;
 margin-inline-end: 0px;
 font-weight: bold;
 }
+
+@media (max-width: 430px) {
+  input[type="email"],
+  button[type="submit"] {
+    width: 100%;
+    /* Optional: Make them block-level elements for better stacking */
+    display: block;
+  }
+}
